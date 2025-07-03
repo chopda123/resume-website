@@ -1,4 +1,9 @@
 'use client';
+
+
+if (typeof window === 'undefined') React.useLayoutEffect = React.useEffect;
+import { useEffect, useState, useRef } from 'react';
+// //////
 import { useEffect, useState, useRef } from 'react';
 import { client } from '@/lib/sanity';
 import { templatesQuery } from '@/lib/queries';

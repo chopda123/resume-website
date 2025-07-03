@@ -102,7 +102,9 @@
 
 
 import Image from 'next/image';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
+import { m as motion } from 'framer-motion';
+
 import StarRating from './StarRating';
 
 export default function TemplateCard({ template, onPreview }) {
